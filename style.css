@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    padding: 0;
+
+        background-image: url("img/map_countries.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+        background-color: rgba(255, 255, 255, 0.9); /* blanco con transparencia */
+        border-radius: 10px;
+        padding: 40px 20px;
+        max-width: 700px;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+      
+
+
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #2b2d42;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  
+  .search-box input {
+    padding: 15px;
+    width: 300px;
+    font-size: 1em;
+    border: 1px solid #b2b0b0;
+    border-radius: 5px;
+  }
+  
+  .search-box button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-left: 10px;
+    background-color: #050000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-box button:hover {
+    background-color: #373741;
+  }
+  
+  .country-info {
+    margin-top: 50px;
+    background-color: #d8d8d8;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    display: none;
+    text-align: left;
+  }
+  
+  .country-info h2 {
+    margin-top: 0;
+    color: #1f1616;
+    font-size: 40px;
+
+  }
+  
+  .country-info img {
+    max-width: 150px;
+    margin-top: 15px;
+    border-radius: 8px;
+  }
+  
